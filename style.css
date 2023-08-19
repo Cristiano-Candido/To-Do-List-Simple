@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 3px solid rgb(146, 146, 146);
+    border-radius: 0.55rem;
+    width: 450px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+#caixaTexto {
+    outline: none;
+    padding-left: 1rem;
+    margin: 20px 0 0 20px;
+    width: 230px;
+    height: 30px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+    /* Adiciona uma transição suave para a mudança de cor da borda */
+    border-radius: 0.55rem;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+}
+
+#caixaTexto:focus {
+    border-color: #008000;
+    /* Altera a cor da borda quando o input está em foco */
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    /* Mantém a sombra quando o input está em foco */
+}
+
+#botaoAdicionar {
+    width: 100px;
+    height: 30px;
+    background-color: #008000;
+    color: aliceblue;
+    border: none;
+    border-radius: 0.55rem;
+    cursor: pointer;
+}
+
+#botaoApagar {
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 0.55rem;
+    cursor: pointer;
+}
+
+#mostrarTela {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
